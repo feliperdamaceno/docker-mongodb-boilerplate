@@ -14,13 +14,13 @@ variables.
 After doing that, run the following command to create your MongoDB service:
 
 ```bash
-docker compose -p mongodb up -d
+docker-compose -p mongodb up -d
 ```
 
 To take down the Docker services, just use:
 
 ```bash
-docker compose -p mongodb down
+docker-compose -p mongodb down
 ```
 
 MongoDB will be accessible on the default port **27017**. Your data is persisted
